@@ -1,0 +1,26 @@
+
+  .multi-steps li {
+   display: inline;
+  }
+
+ .multi-steps .is-active {
+  color: red;
+  font-weight: bolder;
+}
+
+ .multi-steps .is-active .separateur{
+  color: black;
+  font-weight:normal;
+}
+
+.multi-steps .avant {
+  color: gray;
+}
+
+.multi-steps .apres {
+  color: lightblue;
+}
+
+.multi-steps #separateur-8{ /*Pour masquer le dernier ">" */
+	display:none;
+}
